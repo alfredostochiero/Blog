@@ -30,14 +30,26 @@ body {
 
 /* Menu */
 
-a:link, a:visited {
+
+a:link,a:visited {
+    color: #f7b600;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#cabecalho a:link, #cabecalho a:visited {
     color: #FFF;
     text-decoration: none;
     font-size: 1.5em;
     padding: 10px 8px;
 }
 
-a:hover {
+#cabecalho a:hover {
     color:#f7b600;
     background: #FFF;
 }
@@ -50,8 +62,8 @@ a:hover {
     padding: 15px;
 }
 
-#postagens,#lateral {
-    background-color: aliceblue;
+#lateral {
+    background-color: blanchedalmond;
 }
 
 /* Postagens */
@@ -67,19 +79,37 @@ a:hover {
     background: blanchedalmond;
 }
 
+.conteudo-lateral {
+    background:blanchedalmond;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.postagens-recentes{
+    color:#565656;
+    background: #CCC;
+    padding:5px;
+}
+
 .titulo-Postagem {
     color: #f7b600;
 }
 .data-Postagem {
     font-size:0.8em ;
     border-bottom: 1px solid #f4f4f4;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #lateral{   
     width:240px;
     float:right;
+}
+
+.texto-lateral {
+    font-size: 0.9em;
+    padding:10px;
+    border-bottom: 1px solid;
 }
 
 /* rodapé */
