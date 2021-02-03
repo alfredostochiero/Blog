@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background: #e6e6e6;
+}
+
+/* cabeçalho */
+
+#cabecalho {
+    background-color: #f7b600;
+    padding: 17px;
+    text-align: center;
+}
+
+#logo,#menu {
+    padding: 12px;
+
+}
+
+#logoblog {
+    color:#4e4e4e;
+    font-size: 2em;
+}
+
+/* Menu */
+
+a:link, a:visited {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 8px;
+}
+
+a:hover {
+    color:#f7b600;
+    background: #FFF;
+}
