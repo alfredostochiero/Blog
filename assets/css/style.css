@@ -41,3 +41,52 @@ a:hover {
     color:#f7b600;
     background: #FFF;
 }
+
+/* Área principal do Site */
+
+#principal {
+    width:920px;
+    margin:0 auto;
+    padding: 15px;
+}
+
+#postagens,#lateral {
+    background-color: aliceblue;
+}
+
+/* Postagens */
+
+#postagens {
+    width:660px;
+    float:left;
+}
+
+.postagem {
+    padding:20px;
+    margin-bottom: 20px;
+    background: blanchedalmond;
+}
+
+.titulo-Postagem {
+    color: #f7b600;
+}
+.data-Postagem {
+    font-size:0.8em ;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+#lateral{   
+    width:240px;
+    float:right;
+}
+
+/* rodapé */
+
+#rodape {
+    clear : both;
+    text-align: center;
+    background: blanchedalmond;
+    padding:15px
+}
